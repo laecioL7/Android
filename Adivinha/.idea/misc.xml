@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/laeci/Documents/workspace_android/Adivinha/app/src/main/res/drawable/layout_cantos_arredondados.xml" value="0.2985" />
+        <entry key="..\:/Users/laeci/Documents/workspace_android/Adivinha/app/src/main/res/drawable/layout_cantos_arredondados_em_baixo_vermelho.xml" value="0.2985" />
+        <entry key="..\:/Users/laeci/Documents/workspace_android/Adivinha/app/src/main/res/drawable/layout_cantos_arredondados_em_cima_branco.xml" value="0.2985" />
+        <entry key="..\:/Users/laeci/Documents/workspace_android/Adivinha/app/src/main/res/drawable/layout_card_pontos.xml" value="0.2985" />
+        <entry key="..\:/Users/laeci/Documents/workspace_android/Adivinha/app/src/main/res/drawable/layout_card_principal.xml" value="0.2985" />
+        <entry key="..\:/Users/laeci/Documents/workspace_android/Adivinha/app/src/main/res/drawable/layout_card_principal_4.xml" value="0.2985" />
+        <entry key="..\:/Users/laeci/Documents/workspace_android/Adivinha/app/src/main/res/drawable/layout_tela_definicoes.xml" value="0.2985" />
+        <entry key="..\:/Users/laeci/Documents/workspace_android/Adivinha/app/src/main/res/drawable/layout_time_6_preto.xml" value="0.2985" />
+        <entry key="..\:/Users/laeci/Documents/workspace_android/Adivinha/app/src/main/res/drawable/layout_time_amarelo.xml" value="0.2985" />
+        <entry key="..\:/Users/laeci/Documents/workspace_android/Adivinha/app/src/main/res/drawable/layout_time_azul.xml" value="0.2985" />
+        <entry key="..\:/Users/laeci/Documents/workspace_android/Adivinha/app/src/main/res/drawable/layout_time_preto.xml" value="0.2985" />
+        <entry key="..\:/Users/laeci/Documents/workspace_android/Adivinha/app/src/main/res/drawable/layout_time_verde.xml" value="0.2985" />
+        <entry key="..\:/Users/laeci/Documents/workspace_android/Adivinha/app/src/main/res/drawable/layout_time_vermelho.xml" value="0.2985" />
+        <entry key="..\:/Users/laeci/Documents/workspace_android/Adivinha/app/src/main/res/layout/activity_definicoes.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/laeci/Documents/workspace_android/Adivinha/app/src/main/res/layout/activity_jogo.xml" value="0.29786324786324786" />
+        <entry key="..\:/Users/laeci/Documents/workspace_android/Adivinha/app/src/main/res/layout/activity_main.xml" value="0.29786324786324786" />
+        <entry key="..\:/Users/laecio.sousa.barboza/AndroidStudioProjects/Adivinha/app/src/main/res/drawable/layout_cantos_arredondados.xml" value="0.14" />
+        <entry key="..\:/Users/laecio.sousa.barboza/AndroidStudioProjects/Adivinha/app/src/main/res/drawable/layout_cantos_arredondados_btn.xml" value="0.2515" />
+        <entry key="..\:/Users/laecio.sousa.barboza/AndroidStudioProjects/Adivinha/app/src/main/res/drawable/layout_cantos_arredondados_btn_cinza.xml" value="0.2515" />
+        <entry key="..\:/Users/laecio.sousa.barboza/AndroidStudioProjects/Adivinha/app/src/main/res/drawable/layout_card_principal.xml" value="0.1545" />
+        <entry key="..\:/Users/laecio.sousa.barboza/AndroidStudioProjects/Adivinha/app/src/main/res/drawable/layout_card_principal_2.xml" value="0.1545" />
+        <entry key="..\:/Users/laecio.sousa.barboza/AndroidStudioProjects/Adivinha/app/src/main/res/drawable/layout_card_principal_3.xml" value="0.1545" />
+        <entry key="..\:/Users/laecio.sousa.barboza/AndroidStudioProjects/Adivinha/app/src/main/res/layout/activity_jogo.xml" value="0.15213675213675212" />
+        <entry key="..\:/Users/laecio.sousa.barboza/AndroidStudioProjects/Adivinha/app/src/main/res/layout/activity_main.xml" value="0.1757852077001013" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

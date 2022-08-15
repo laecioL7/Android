@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="30dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/aleo_italic"
+        android:text="@string/titulo_app"
+        android:textColor="@color/cor_principal"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+<!--    card  -->
+    <RelativeLayout
+        android:id="@+id/view_jogar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altura_card_principal"
+        android:layout_marginTop="40dp"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:background="@drawable/layout_card_principal"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TextView
+            android:id="@+id/txt_jogar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/baloo_da"
+            android:text="@string/jogar"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:id="@+id/txt_desc_jogar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_jogar"
+            android:layout_alignStart="@+id/txt_jogar"
+            android:fontFamily="@font/acme"
+            android:text="@string/descricao_jogar"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="25dp"/>
+
+    </RelativeLayout>
+
+<!--    card  -->
+    <RelativeLayout
+        android:id="@+id/view_definicoes"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altura_card_principal"
+        android:layout_marginTop="@dimen/card_margin_top_default"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:background="@drawable/layout_card_principal_3"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TextView
+            android:id="@+id/txt_definicao_do_jogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/definicoes"
+            android:textColor="@color/white"
+            android:fontFamily="@font/baloo_da"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:id="@+id/txt_desc_definicao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_definicao_do_jogo"
+            android:layout_alignStart="@+id/txt_definicao_do_jogo"
+            android:fontFamily="@font/acme"
+            android:text="@string/definicoes_descricao"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="25dp"/>
+
+    </RelativeLayout>
+
+    <!--  card  -->
+    <RelativeLayout
+        android:id="@+id/view_listar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altura_card_principal"
+        android:layout_marginTop="@dimen/card_margin_top_default"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:background="@drawable/layout_card_principal_2"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TextView
+            android:id="@+id/txt_listar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/listar_dicas"
+            android:fontFamily="@font/baloo_da"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:id="@+id/txt_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_listar"
+            android:layout_alignStart="@+id/txt_listar"
+            android:fontFamily="@font/acme"
+            android:text="@string/listar_dicas_descricao"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="25dp"/>
+
+    </RelativeLayout>
+
+<!--  card  -->
+    <RelativeLayout
+        android:id="@+id/view_opcoes"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/altura_card_principal"
+        android:layout_marginTop="@dimen/card_margin_top_default"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:background="@drawable/layout_card_principal_4"
+        android:clickable="true"
+        android:focusable="true">
+
+        <TextView
+            android:id="@+id/txt_config"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:text="@string/config"
+            android:fontFamily="@font/baloo_da"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:id="@+id/txt_desc_opcoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_config"
+            android:layout_alignStart="@+id/txt_config"
+            android:fontFamily="@font/acme"
+            android:text="@string/configuracoes_descricao"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="25dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

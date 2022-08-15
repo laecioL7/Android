@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Adivinha</string>
+    <string name="titulo_app">Adivinha</string>
+    <string name="rodada">Rodada 1</string>
+    <string name="dica">Dica</string>
+    <string name="titulo_dica">Irineu você não sabe nem eu</string>
+    <string name="meme">meme</string>
+    <string name="irineu">Pode falar o nome do senhor pra gente? Irineu Você não sabe nem eu Irineu Você não sabe nem eu Nem eu, nem eu</string>
+    <string name="pontos">Pontos \n 2</string>
+    <string name="acertou">acertou</string>
+    <string name="pular">pular</string>
+    <string name="relogio">00:50</string>
+    <string name="jogar">Jogar</string>
+    <string name="listar_dicas">Listar Dicas</string>
+    <string name="descricao_jogar">Iniciar o game</string>
+    <string name="listar_dicas_descricao">Listar todas as \ndicas disponíveis do jogo</string>
+    <string name="configuracoes_descricao">Configurações \ndo aplicativo</string>
+    <string name="definicoes_descricao">A partida irá iniciar com o \nque estiver definido aqui</string>
+    <string name="config">Opções</string>
+    <string name="definicoes">Definições</string>
+</resources>

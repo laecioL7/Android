@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_tela_definicoes">
+
+<!--
+Qtd jogadores
+
+-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo_da"
+            android:text="Jogadores"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/radioGroup"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:textColor="@color/white"
+                android:id="@+id/rb_4"
+                android:checked="false"
+                android:textSize="@dimen/radio_text_size"
+                android:buttonTint="@color/white"
+                android:fontFamily="@font/acme"
+                android:layout_marginStart="@dimen/rb_margin_space"
+                android:layout_marginEnd="@dimen/rb_margin_space"/>
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:textColor="@color/white"
+                android:id="@+id/rb_6"
+                android:checked="false"
+                android:textSize="@dimen/radio_text_size"
+                android:buttonTint="@color/white"
+                android:fontFamily="@font/acme"
+                android:layout_marginStart="@dimen/rb_margin_space"
+                android:layout_marginEnd="@dimen/rb_margin_space"/>
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"
+                android:textColor="@color/white"
+                android:id="@+id/rb_8"
+                android:checked="false"
+                android:fontFamily="@font/acme"
+                android:textSize="@dimen/radio_text_size"
+                android:buttonTint="@color/white"
+                android:layout_marginStart="@dimen/rb_margin_space"
+                android:layout_marginEnd="@dimen/rb_margin_space"/>
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:textColor="@color/white"
+                android:id="@+id/rb_10"
+                android:checked="false"
+                android:fontFamily="@font/acme"
+                android:textSize="@dimen/radio_text_size"
+                android:buttonTint="@color/white"
+                android:layout_marginStart="@dimen/rb_margin_space"
+                android:layout_marginEnd="@dimen/rb_margin_space"/>
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12"
+                android:textColor="@color/white"
+                android:id="@+id/rb_12"
+                android:checked="false"
+                android:fontFamily="@font/acme"
+                android:textSize="@dimen/radio_text_size"
+                android:buttonTint="@color/white"
+                android:layout_marginStart="@dimen/rb_margin_space"
+                android:layout_marginEnd="@dimen/rb_margin_space"/>
+
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+<!-- TODO: -->
+
+    </LinearLayout>
+
+
+</LinearLayout>

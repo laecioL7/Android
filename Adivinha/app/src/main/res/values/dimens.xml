@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_top_lbl">20dp</dimen>
+    <dimen name="btn_text_size">20sp</dimen>
+    <dimen name="altura_card_principal">120dp</dimen>
+    <dimen name="card_margin_top_default">30dp</dimen>
+    <dimen name="rb_margin_space">10dp</dimen>
+    <dimen name="radio_text_size">20sp</dimen>
+</resources>

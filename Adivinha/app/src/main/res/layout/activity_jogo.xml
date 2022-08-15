@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:id="@+id/layout_fundo"
+    android:background="@drawable/layout_time_1_vermelho"
+    >
+
+    <TextView
+        android:id="@+id/lbl_rodada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_top_lbl"
+        android:fontFamily="@font/acme"
+        android:text="@string/rodada"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:padding="5dp">
+<!--        android:background="@drawable/layout_cantos_arredondados"-->
+
+
+        <TextView
+            android:id="@+id/lbl_titulo_dica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo_da"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/titulo_dica"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/lbl_categoria_dica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lbl_titulo_dica"
+            android:fontFamily="@font/baloo_da"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/meme"
+            android:textColor="#FF9800"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lbl_descricao_dica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lbl_categoria_dica"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/layout_cantos_arredondados_em_cima_branco"
+            android:fontFamily="@font/baloo_da"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="@string/irineu"
+            android:textColor="#5A5959"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/lbl_pontos_dica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lbl_descricao_dica"
+            android:background="@drawable/layout_card_pontos"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/pontos"
+            android:textColor="@color/white"
+            android:fontFamily="@font/baloo_da"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_acertou"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:background="@drawable/layout_card_principal_3"
+            android:gravity="center"
+            android:padding="10dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:text="@string/acertou"
+            android:textColor="@color/white"
+            android:textSize="@dimen/btn_text_size"
+            android:fontFamily="@font/baloo_da"
+            app:backgroundTint="@null" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_pular"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/pular"
+            android:gravity="center"
+            android:textSize="@dimen/btn_text_size"
+            android:background="@drawable/layout_cantos_arredondados_btn_cinza"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            app:backgroundTint="@null"
+            android:fontFamily="@font/baloo_da"
+            android:layout_margin="5dp">
+        </com.google.android.material.button.MaterialButton>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/relogio"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:fontFamily="casual"/>
+
+</LinearLayout>
