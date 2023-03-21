@@ -6,4 +6,5 @@
     <dimen name="card_margin_top_default">30dp</dimen>
     <dimen name="rb_margin_space">10dp</dimen>
     <dimen name="radio_text_size">20sp</dimen>
+    <dimen name="lbl_resultado_margin_geral">5dp</dimen>
 </resources>

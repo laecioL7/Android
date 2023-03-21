@@ -14,8 +14,19 @@
     <string name="listar_dicas">Listar Dicas</string>
     <string name="descricao_jogar">Iniciar o game</string>
     <string name="listar_dicas_descricao">Listar todas as \ndicas disponíveis do jogo</string>
-    <string name="configuracoes_descricao">Configurações \ndo aplicativo</string>
+    <string name="como_jogar_descricao">Indrodução ao \njogo</string>
     <string name="definicoes_descricao">A partida irá iniciar com o \nque estiver definido aqui</string>
-    <string name="config">Opções</string>
+    <string name="como_jogar">Como Jogar</string>
     <string name="definicoes">Definições</string>
+    <string name="salvar">salvar</string>
+    <string name="start">Iniciar</string>
+    <string name="stop">Parar</string>
+    <string name="parado">Fim do tempo</string>
+    <string name="rodando">Vez iniciada</string>
+    <string name="ok">ok</string>
+    <string name="proxima_rodada">Próxima Rodada</string>
+    <string name="vencedor_da_rodada">Vencedor da rodada:</string>
+    <string name="equipe">Equipe Vermelha</string>
+    <string name="rodada2">Rodada</string>
+    <string name="dica_rodada_1">Na primeira rodada você pode dar qualquer dica verbal e mímicas, desde que nenhuma palavra da sua dica esteja no título da dica da vez</string>
 </resources>

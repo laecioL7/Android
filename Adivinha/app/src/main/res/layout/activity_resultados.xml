@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:backgroundTint="@null"
+    android:backgroundTintMode="screen"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/lbl_vencedor_rodada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vencedor_da_rodada"
+        android:layout_gravity="center"
+        android:textColor="@color/btn_cinza_desabilitado"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="@font/baloo_da"
+        />
+
+    <TextView
+        android:id="@+id/lbl_equipe_vencedora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/equipe"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:fontFamily="@font/baloo_da"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:padding="15dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lbl_equipe_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_da"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/titulo_dica"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:layout_margin="@dimen/lbl_resultado_margin_geral"/>
+
+    <TextView
+        android:id="@+id/lbl_equipe_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_da"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:text="@string/titulo_dica"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:background="@color/time_vermelho"
+        android:layout_margin="@dimen/lbl_resultado_margin_geral"
+        android:shadowRadius="2"/>
+
+    <TextView
+        android:id="@+id/lbl_equipe_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_da"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/titulo_dica"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:layout_margin="@dimen/lbl_resultado_margin_geral"/>
+
+    <TextView
+        android:id="@+id/lbl_equipe_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_da"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/titulo_dica"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:layout_margin="@dimen/lbl_resultado_margin_geral"/>
+
+
+    <TextView
+        android:id="@+id/lbl_equipe_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_da"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/titulo_dica"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:layout_margin="@dimen/lbl_resultado_margin_geral"/>
+
+    <TextView
+        android:id="@+id/lbl_equipe_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_da"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/titulo_dica"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:layout_margin="@dimen/lbl_resultado_margin_geral"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_proxima"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/layout_card_principal_3"
+        android:fontFamily="@font/baloo_da"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/proxima_rodada"
+        android:textColor="@color/white"
+        android:textSize="@dimen/btn_text_size"
+        app:backgroundTint="@null" />
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

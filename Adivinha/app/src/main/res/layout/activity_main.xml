@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".activitys.MainActivity"
     android:orientation="vertical"
     android:padding="30dp"
     >
@@ -56,12 +56,12 @@
             android:textSize="13sp" />
 
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="25dp"/>
+            android:layout_marginEnd="25dp"
+            android:src="@mipmap/meme_this_is_fine_dog" />
 
     </RelativeLayout>
 
@@ -101,12 +101,12 @@
             android:textSize="14sp" />
 
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="25dp"/>
+            android:layout_marginEnd="25dp"
+            android:src="@mipmap/meme_awkward_look_monkey_puppet" />
 
     </RelativeLayout>
 
@@ -146,12 +146,12 @@
             android:textSize="13sp" />
 
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="25dp"/>
+            android:layout_marginEnd="25dp"
+            android:src="@mipmap/meme_patrick_i_have_3_dollars" />
 
     </RelativeLayout>
 
@@ -173,30 +173,30 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginTop="15dp"
-            android:text="@string/config"
             android:fontFamily="@font/baloo_da"
+            android:text="@string/como_jogar"
             android:textColor="@color/white"
             android:textSize="25sp" />
 
 
         <TextView
-            android:id="@+id/txt_desc_opcoes"
+            android:id="@+id/txt_como_jogar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/txt_config"
             android:layout_alignStart="@+id/txt_config"
             android:fontFamily="@font/acme"
-            android:text="@string/configuracoes_descricao"
+            android:text="@string/como_jogar_descricao"
             android:textColor="@color/white"
             android:textSize="13sp" />
 
         <ImageView
-            android:layout_width="wrap_content"
+            android:layout_width="80dp"
             android:layout_height="wrap_content"
-            android:src="@mipmap/ic_launcher"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginEnd="25dp"/>
+            android:layout_marginEnd="25dp"
+            android:src="@mipmap/meme_roll_safe" />
 
     </RelativeLayout>
 

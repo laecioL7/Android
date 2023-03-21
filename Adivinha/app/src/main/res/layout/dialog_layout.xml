@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_pop_up"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:backgroundTint="@null"
+    android:backgroundTintMode="screen"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baloo_da"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/titulo_dica"
+        android:textColor="#FFC107"
+        android:textSize="20sp"
+        android:layout_margin="15dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_ok"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/body"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/layout_card_principal_3"
+        android:fontFamily="@font/baloo_da"
+        android:gravity="center"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/ok"
+        android:textColor="@color/white"
+        android:textSize="@dimen/btn_text_size"
+        app:backgroundTint="@null" />
+
+
+</RelativeLayout>

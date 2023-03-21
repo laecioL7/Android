@@ -1,44 +1,144 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/layout_tela_definicoes">
+    android:background="@drawable/layout_tela_definicoes"
+    android:paddingBottom="50dp">
 
 <!--
 Qtd jogadores
 
 -->
     <LinearLayout
+        android:id="@+id/layout_qtd_jogadores"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="60dp"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:fontFamily="@font/baloo_da"
             android:text="Jogadores"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/rb_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/rb_margin_space"
+                android:layout_marginEnd="@dimen/rb_margin_space"
+                android:buttonTint="@color/white"
+                android:checked="false"
+                android:fontFamily="@font/acme"
+                android:text="4"
+                android:textColor="@color/white"
+                android:textSize="@dimen/radio_text_size" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/rb_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/rb_margin_space"
+                android:layout_marginEnd="@dimen/rb_margin_space"
+                android:buttonTint="@color/white"
+                android:checked="false"
+                android:fontFamily="@font/acme"
+                android:text="6"
+                android:textColor="@color/white"
+                android:textSize="@dimen/radio_text_size" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/rb_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/rb_margin_space"
+                android:layout_marginEnd="@dimen/rb_margin_space"
+                android:buttonTint="@color/white"
+                android:checked="false"
+                android:fontFamily="@font/acme"
+                android:text="8"
+                android:textColor="@color/white"
+                android:textSize="@dimen/radio_text_size" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/rb_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/rb_margin_space"
+                android:layout_marginEnd="@dimen/rb_margin_space"
+                android:buttonTint="@color/white"
+                android:checked="false"
+                android:fontFamily="@font/acme"
+                android:text="10"
+                android:textColor="@color/white"
+                android:textSize="@dimen/radio_text_size" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/rb_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/rb_margin_space"
+                android:layout_marginEnd="@dimen/rb_margin_space"
+                android:buttonTint="@color/white"
+                android:checked="false"
+                android:fontFamily="@font/acme"
+                android:text="12"
+                android:textColor="@color/white"
+                android:textSize="@dimen/radio_text_size" />
+
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_tempo_adivinhacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/layout_qtd_jogadores">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo_da"
+            android:text="Tempo de adivinhação\n(em segundos)"
+            android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="25sp"
             android:layout_gravity="center"
             />
 
+
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:id="@+id/radioGroup"
+            android:id="@+id/radioGroupTime"
             android:layout_gravity="center"
             android:orientation="horizontal">
 
             <com.google.android.material.radiobutton.MaterialRadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="4"
+                android:text="30"
                 android:textColor="@color/white"
-                android:id="@+id/rb_4"
+                android:id="@+id/rb_time_30"
                 android:checked="false"
                 android:textSize="@dimen/radio_text_size"
                 android:buttonTint="@color/white"
@@ -49,9 +149,9 @@ Qtd jogadores
             <com.google.android.material.radiobutton.MaterialRadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="6"
+                android:text="45"
                 android:textColor="@color/white"
-                android:id="@+id/rb_6"
+                android:id="@+id/rb_time_45"
                 android:checked="false"
                 android:textSize="@dimen/radio_text_size"
                 android:buttonTint="@color/white"
@@ -62,35 +162,9 @@ Qtd jogadores
             <com.google.android.material.radiobutton.MaterialRadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="8"
+                android:text="60"
                 android:textColor="@color/white"
-                android:id="@+id/rb_8"
-                android:checked="false"
-                android:fontFamily="@font/acme"
-                android:textSize="@dimen/radio_text_size"
-                android:buttonTint="@color/white"
-                android:layout_marginStart="@dimen/rb_margin_space"
-                android:layout_marginEnd="@dimen/rb_margin_space"/>
-
-            <com.google.android.material.radiobutton.MaterialRadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="10"
-                android:textColor="@color/white"
-                android:id="@+id/rb_10"
-                android:checked="false"
-                android:fontFamily="@font/acme"
-                android:textSize="@dimen/radio_text_size"
-                android:buttonTint="@color/white"
-                android:layout_marginStart="@dimen/rb_margin_space"
-                android:layout_marginEnd="@dimen/rb_margin_space"/>
-
-            <com.google.android.material.radiobutton.MaterialRadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="12"
-                android:textColor="@color/white"
-                android:id="@+id/rb_12"
+                android:id="@+id/rb_time_60"
                 android:checked="false"
                 android:fontFamily="@font/acme"
                 android:textSize="@dimen/radio_text_size"
@@ -105,14 +179,106 @@ Qtd jogadores
 
 
     <LinearLayout
+        android:id="@+id/layout_dicas_partida"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_tempo_adivinhacao"
         android:layout_marginTop="50dp"
         android:orientation="vertical">
 
-<!-- TODO: -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/baloo_da"
+            android:text="Quantidade de dicas \n da partida"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+
+        <RadioGroup
+            android:id="@+id/radioGroupQtdDicas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/rb_qtd_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/rb_margin_space"
+                android:layout_marginEnd="@dimen/rb_margin_space"
+                android:buttonTint="@color/white"
+                android:checked="false"
+                android:fontFamily="@font/acme"
+                android:text="5"
+                android:textColor="@color/white"
+                android:textSize="@dimen/radio_text_size" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/rb_qtd_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/rb_margin_space"
+                android:layout_marginEnd="@dimen/rb_margin_space"
+                android:buttonTint="@color/white"
+                android:checked="false"
+                android:fontFamily="@font/acme"
+                android:text="8"
+                android:textColor="@color/white"
+                android:textSize="@dimen/radio_text_size" />
+
+            <com.google.android.material.radiobutton.MaterialRadioButton
+                android:id="@+id/rb_qtd_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/rb_margin_space"
+                android:layout_marginEnd="@dimen/rb_margin_space"
+                android:buttonTint="@color/white"
+                android:checked="false"
+                android:fontFamily="@font/acme"
+                android:text="10"
+                android:textColor="@color/white"
+                android:textSize="@dimen/radio_text_size" />
+
+        </RadioGroup>
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_dicas_partida"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
 
-</LinearLayout>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:src="@mipmap/meme_norton_smirking"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_salvar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/layout_card_principal_3"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/salvar"
+        android:textColor="@color/white"
+        android:textSize="@dimen/btn_text_size"
+        android:fontFamily="@font/baloo_da"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
